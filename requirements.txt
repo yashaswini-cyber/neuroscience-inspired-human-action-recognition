@@ -1,0 +1,45 @@
+# -------------------------------
+# Core ML Frameworks
+# -------------------------------
+keras==3.0.5          # Multi-backend Keras (Torch backend supported)
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3
+
+# -------------------------------
+# PyTorch (install separately with CUDA)
+# -------------------------------
+# IMPORTANT:
+# DO NOT install torch from pip directly.
+# Install it separately using:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# -------------------------------
+# YOLOv8 + Video Processing
+# -------------------------------
+ultralytics==8.0.196
+opencv-python>=4.8.0
+tqdm>=4.66
+
+# -------------------------------
+# Dataset tools
+# -------------------------------
+kagglehub>=0.2.5
+pyyaml>=6.0.1
+requests>=2.31.0
+
+# -------------------------------
+# Visualization
+# -------------------------------
+matplotlib>=3.8
+
+# -------------------------------
+# Jupyter & Kernel
+# -------------------------------
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# -------------------------------
+# Utilities
+# -------------------------------
+pillow>=10.0.0
